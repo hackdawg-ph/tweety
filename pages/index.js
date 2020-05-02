@@ -19,9 +19,9 @@ export default function Home({ tweets }) {
             <div className="ml-5">
               <div className="inline-flex">
                 <h4 className="text-white">{tweet.user.name}</h4>
-                <p className="ml-3 text-gray-500">@{tweet.user.username}</p>
-                <p className="mx-3 text-gray-500">.</p>
-                <p className="text-gray-500">
+                <p className="ml-4 text-gray-600 text-sm">@{tweet.user.username}</p>
+                <p className="mx-2 text-gray-600 text-sm">.</p>
+                <p className="text-gray-600 text-sm">
                   {moment(tweet.created_at).fromNow()}
                 </p>
               </div>
