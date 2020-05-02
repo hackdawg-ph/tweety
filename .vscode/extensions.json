@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "redhat.vscode-xml",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "hex-ci.stylelint-plus",
+    "ofhumanbondage.react-proptypes-intellisense",
+    "dsznajder.es7-react-js-snippets",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}
